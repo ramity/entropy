@@ -1,0 +1,7 @@
+data/cache/*
+data/database/*
+logs/core-backend/*
+
+.env
+
+!.gitkeep
