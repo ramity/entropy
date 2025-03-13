@@ -1,7 +1,12 @@
+# Data directory excludes
 data/cache/*
 data/database/*
+
+# Logs directory excludes
 logs/core-backend/*
 
+# Exclude .env files
 .env
 
+# Override to preserve directory structure
 !.gitkeep
