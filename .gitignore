@@ -1,5 +1,6 @@
 # Data directory excludes
 data/cache/*
+data/core-backend/*
 data/database/*
 
 # Logs directory excludes
