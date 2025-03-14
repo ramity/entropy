@@ -1,0 +1,25 @@
+{
+    "name": "Entropy PWA",
+    "short_name": "Entropy PWA",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "/icons/entropy-logo-square-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/entropy-logo-square-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/entropy-logo-square-373x373.png",
+            "sizes": "373x373",
+            "type": "image/png"
+        }
+    ]
+}

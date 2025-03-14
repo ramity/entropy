@@ -58,6 +58,19 @@ services:
     env_file:
       - ./docker/database-viewer/.env
 
+  notification-backend:
+    container_name: entropy_notification_backend
+    build:
+      context: ./
+      dockerfile: ./docker/notification-backend/Dockerfile
+    image: entropy_notification_backend
+    ports:
+      - 3000:3000
+    volumes:
+      - ./src/notification-backend:/entropy
+    env_file:
+      - ./docker/notification-backend/.env
+
 networks:
   entropy:
     name: entropy

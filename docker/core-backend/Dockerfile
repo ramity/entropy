@@ -4,7 +4,7 @@ FROM php:8.2-bookworm
 RUN apt update
 RUN apt upgrade -y
 RUN apt install -y libzip-dev
-RUN apt install -y zip
+RUN apt install -y zip unzip
 RUN apt install -y apt-utils
 
 # Add PHPUnit driver for testing
@@ -29,9 +29,13 @@ RUN docker-php-ext-install opcache
 RUN docker-php-ext-install zip
 
 # Install symfony binary
-RUN curl -1sLf 'https://dl.cloudsmith.io/public/symfony/stable/setup.deb.sh' | bash
-RUN apt install -y symfony-cli
-RUN symfony server:ca:install
+# RUN curl -1sLf 'https://dl.cloudsmith.io/public/symfony/stable/setup.deb.sh' | bash
+# RUN apt install -y symfony-cli
+COPY data/core-backend/linux-binary.zip /tmp/linux-binary.zip
+RUN cd /tmp && unzip /tmp/linux-binary -d /tmp
+RUN cd /tmp && tar -xvzf /tmp/symfony-cli_linux_amd64.tar.gz
+RUN mv /tmp/symfony /usr/local/bin/symfony
+RUN symfony server:ca:install --ips="192.168.1.4,localhost,127.0.0.1,::1"
 
 # Install composer
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
