@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cp -u docker/cache/.env.dist docker/cache/.env
 cp -u docker/core-backend/.env.dist docker/core-backend/.env
 cp -u docker/database/.env.dist docker/database/.env
