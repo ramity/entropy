@@ -1,0 +1,90 @@
+{
+    "statusCode": 201,
+    "headers": {
+        "x-powered-by": [
+            "Express"
+        ],
+        "access-control-allow-origin": [
+            "*"
+        ],
+        "content-type": [
+            "application\/json; charset=utf-8"
+        ],
+        "content-length": [
+            "2"
+        ],
+        "etag": [
+            "W\/\u00222-vyGp6PvFo4RvsFtPoIWeCReyIC8\u0022"
+        ],
+        "date": [
+            "Sun, 16 Mar 2025 00:31:57 GMT"
+        ],
+        "connection": [
+            "keep-alive"
+        ],
+        "keep-alive": [
+            "timeout=5"
+        ]
+    },
+    "content": "{}",
+    "info": {
+        "response_headers": [
+            "HTTP\/1.1 201 Created",
+            "X-Powered-By: Express",
+            "Access-Control-Allow-Origin: *",
+            "Content-Type: application\/json; charset=utf-8",
+            "Content-Length: 2",
+            "ETag: W\/\u00222-vyGp6PvFo4RvsFtPoIWeCReyIC8\u0022",
+            "Date: Sun, 16 Mar 2025 00:31:57 GMT",
+            "Connection: keep-alive",
+            "Keep-Alive: timeout=5"
+        ],
+        "http_code": 201,
+        "error": null,
+        "canceled": false,
+        "http_method": "POST",
+        "user_data": null,
+        "max_duration": 0,
+        "start_time": 1742085117.178075,
+        "original_url": "http:\/\/192.168.1.4:3000\/subscribe",
+        "pause_handler": [],
+        "redirect_url": null,
+        "url": "http:\/\/192.168.1.4:3000\/subscribe",
+        "content_type": "application\/json; charset=utf-8",
+        "header_size": 270,
+        "request_size": 608,
+        "filetime": -1,
+        "ssl_verify_result": 0,
+        "redirect_count": 0,
+        "total_time": 0.00827,
+        "namelookup_time": 6.0e-5,
+        "connect_time": 0.000406,
+        "pretransfer_time": 0.000568,
+        "size_upload": 411,
+        "size_download": 2,
+        "speed_download": 241,
+        "speed_upload": 49697,
+        "download_content_length": 2,
+        "upload_content_length": 411,
+        "starttransfer_time": 0.007854,
+        "redirect_time": 0,
+        "primary_ip": "192.168.1.4",
+        "certinfo": [],
+        "primary_port": 3000,
+        "local_ip": "192.168.192.3",
+        "local_port": 34280,
+        "http_version": 2,
+        "protocol": 1,
+        "ssl_verifyresult": 0,
+        "scheme": "HTTP",
+        "appconnect_time_us": 0,
+        "connect_time_us": 406,
+        "namelookup_time_us": 60,
+        "pretransfer_time_us": 568,
+        "redirect_time_us": 0,
+        "starttransfer_time_us": 7854,
+        "total_time_us": 8270,
+        "effective_method": "POST",
+        "debug": "*   Trying 192.168.1.4:3000...\n* Connected to 192.168.1.4 (192.168.1.4) port 3000 (#0)\n\u003E POST \/subscribe HTTP\/1.1\r\nHost: 192.168.1.4:3000\r\nAccept: *\/*\r\nUser-Agent: Symfony HttpClient (Curl)\r\nAccept-Encoding: gzip\r\nContent-Length: 411\r\nContent-Type: application\/x-www-form-urlencoded\r\n\r\n\u003C HTTP\/1.1 201 Created\r\n\u003C X-Powered-By: Express\r\n\u003C Access-Control-Allow-Origin: *\r\n\u003C Content-Type: application\/json; charset=utf-8\r\n\u003C Content-Length: 2\r\n\u003C ETag: W\/\u00222-vyGp6PvFo4RvsFtPoIWeCReyIC8\u0022\r\n\u003C Date: Sun, 16 Mar 2025 00:31:57 GMT\r\n\u003C Connection: keep-alive\r\n\u003C Keep-Alive: timeout=5\r\n\u003C \r\n* Connection #0 to host 192.168.1.4 left intact\n"
+    }
+}
