@@ -1,29 +1,63 @@
 {
-    "author": "github/ramity",
-    "background": {
-        "scripts": ["background.js"]
-    },
-    "name": "Entropy",
-    "short_name": "Entropy",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#000000",
+    "background_color": "#74b9ff",
+    "categories": ["social"],
+    "description": "Opensource communication platform",
+    "display": "fullscreen",
     "icons": [
         {
             "src": "/icons/entropy-square-192x192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "/icons/entropy-square-256x256.png",
             "sizes": "256x256",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "/icons/entropy-square-512x512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/entropy-logo-square-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/entropy-logo-square-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any"
         }
-    ]
+    ],
+    "id": "/",
+    "launch_handler": {
+        "client_mode": "focus-existing"
+    },
+    "name": "Entropy",
+    "orientation": "any",
+    "prefer_related_applications": false,
+    "scope": "/",
+    "short_name": "Entropy",
+    "shortcuts": [
+        {
+            "name": "Example shortcut",
+            "short_name": "Example",
+            "description": "This is an example shortcut",
+            "url": "/",
+            "icons": [
+                {
+                    "src": "/icons/entropy-square-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "start_url": "/",
+    "theme_color": "#74b9ff"
 }
